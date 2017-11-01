@@ -13,6 +13,3 @@
             * [IRP_MN_CANCEL_STOP_DEVICE](4/2/3/4/2/2/IRP_MN_CANCEL_STOP_DEVICE.md)
             * [IRP_MN_DEVICE_USAGE_NOTIFICATION](4/2/3/4/2/2/IRP_MN_DEVICE_USAGE_NOTIFICATION.md)
             * [IRP_MN_QUERY_INTERFACE](4/2/3/4/2/2/IRP_MN_QUERY_INTERFACE.md)
-=======
-* [First Chapter](chapter1.md)
->>>>>>> 2c2a803dadf2cbfed6b3c2b8b34971b54a42e76c
