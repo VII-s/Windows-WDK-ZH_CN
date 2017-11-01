@@ -100,7 +100,7 @@ PVOID InterfaceSpecificData
 
 驱动程序通常将该IRP发送到驱动程序所在的设备堆栈顶部。如果驱动程序将此IRP发送到不同的设备堆栈，则如果其他设备不是驱动程序正在维护的设备的祖先，则驱动程序必须在其他设备上注册目标设备通知。这样的驱动程序使用EventCategoryTargetDeviceChange的EventCategory调用IoRegisterPlugPlayNotification。当驱动程序收到类型为GUID\_TARGET\_DEVICE\_QUERY\_REMOVE的通知时，驱动程序必须取消引用该接口。如果该接口接收到后续的GUID\_TARGET\_DEVICE\_REMOVE\_CANCELLED通知，驱动程序可以对接口进行重新调用。
 
-## 要求Wdm.h \(include Wdm.h, Ntddk.h, or Ntifs.h\)
+## 要求
 
 | 头文件 | Wdm.h \(include Wdm.h, Ntddk.h, or Ntifs.h\) |
 | :--- | :--- |
